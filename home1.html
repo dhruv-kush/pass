@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="header" id="myheader">E-Bus Pass</div>
+    <img class="photo2" src="dtccc.png" alt="">
+    <div class="home">
+        <p><u class="dtc">DTC And Cluster Bus</u></p>
+        <div class="hori"></div>
+        <img src="DHRUV.png" class="photo1" alt="">
+        <div class="content">
+            <p >DHRUV</p>
+            <p>Student Special All route AC/Non AC</p>
+            
+            <p style="font-weight: 900";>Bus Pass No. <p class="blink1">7505082496879</p></p>
+            <p style="color: red;">Valid from 29/9/2024 to 09/2/2025</p>
+            
+            
+                        </div>
+                        
+                        
+    </div>
+    <script>
+        window.onscroll = function()
+        {myFunction()};
+        var header = document.getElementById("myheader");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if(window.pageXOffset>sticky){
+                header.classList.add("sticky");
+            }
+            else{
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
